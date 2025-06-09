@@ -308,4 +308,71 @@ h3{
     justify-content: center;
 
 }
+.experience{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
+
+    .timeline-container {
+      max-width: 1000px;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease-out forwards;
+      margin-left: 20%;
+    }
+
+   .experience1 {
+      margin-bottom: 25px;
+      padding: 20px;
+      border-left: 4px solid #4a90e2;
+      background: #f1f7ff;
+      border-radius: 8px;
+      opacity: 0;
+      transform: translateX(-30px);
+      animation: slideIn 0.6s forwards;
+      display: flex;
+    }
+    .role-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  object-fit: cover;
+  background-color: #e0f0ff;
+  padding: 5px;
+  border: 2px solid #ccc;
+}
+
+    .experience1:nth-child(1) {
+      animation-delay: 0.3s;
+    }
+
+    .experience1:nth-child(2) {
+      animation-delay: 0.6s;
+    }
+
+    .experience1 h3 {
+      margin: 0 0 5px;
+      color: #333;
+    }
+
+    .experience1 span {
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .experience1 p {
+      margin: 10px 0 0;
+      color: #555;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes slideIn {
+      to { opacity: 1; transform: translateX(0); }
+    }
