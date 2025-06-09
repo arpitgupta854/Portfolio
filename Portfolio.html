@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <section class="container" id="myhome">
+        <nav>
+            <div class="logo">Portfolio <b>.</b></div>
+            <ul class="navItem">
+                <li>
+                    <a href="#myhome">Home</a>
+                    <a href="#myabout">About</a>
+                    <a href="#myskill">Skills</a>
+                    <a href="#feed">Contact</a>
+                </li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/ayush-dixit-2316b4153/"><i class="fa fa-linkedin"></i></a>
+                <a href="https://github.com/dixitayush"><i class="fa fa-github"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello,<br> I am Ayush Dixit</span>
+                <h2 style="font-size: 20px;">And I'm a <br><span class="multiText"></span></h2>
+                <p>2 Years Experienced Software Engineer with a demonstrated history of working as a Software Developer in the telecommunications industry.Skilled in Java 8, J2EE,Oracle,Spring, SQL, REST,XML,SOAP,Unix, and Linux. Strong engineering professional with a Bachelor of Engineering - BE focused in Computer Engineering from MMIT Pune.</p>
+                <div class="btns">
+                    <button><a href="cv/Ayushkumarresume.pdf" download="Resume" >Download cv</a> <i class="fa fa-download"></i></button>
+                    <button> <a href="#feed"></a>Contact Me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="./img2.png" id="splash" alt="">
+                    <img src="./ayush.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" id="myabout">
+        <div class="about-img">
+            <img src="./ayush2.webp" alt="">
+        </div>
+        <div class="about-content">
+            <h1 >About <span class="multiText">Me</span></h1>
+            <h2>Backend Developer</h2>
+            <p>Working as Software Engineer in the OMS(Ordering management Sytem) which is one of the application of amdocs product for the telecom providers, reponsible for design , development , debugging, API development, bug fixing and writing the production ready code for the application.</p>
+            <div class="btns rdm"><button > Read More</button></div>
+        </div>
+        
+        
+
+    </section>
+
+    <section class="skill" id="myskill">
+            <h1 class="title">My <span class="multiText">Skills</span> </h1>
+            <div class="row">
+                <div class="course-col">
+                    <h3>WEB DEVELOPER  <span class="multiText"><i class="fa fa-code"></i></span></h3>
+                    <p>A results-driven Web Developer with 2+ years of experience in software engineering and web development. A proven track record of developing, and implementing interactive websites. Adept at leveraging SEO strategies and user-centered design principles to engage users and grow web traffic.</p>
+                </div>
+                <div class="course-col">
+                    <h3>SOFTWARE DEVELOPER  <span class="multiText"><i class="fa fa-pen-ruler"></i></span></h3></h3>
+                    <p>2 Years Experienced Software Engineer with a demonstrated history of working as a Software Developer in the telecommunications industry.Skilled in Java 8, J2EE,Oracle,Spring, SQL, REST,XML,SOAP,Unix, and Linux.</p>
+                </div>
+                <div class="course-col">
+                    <h3>BACKEND DEVELOPER <span class="multiText"><i class="fa fa-gamepad"></i></span></h3></i></h3>
+                    <p>I am highly motivated, results-driven Java Backend Developer seeking a position to utilize my experience, skills and knowledge to create reliable, efficient and enhance user experience. I am passionate about developing and maintaining backend systems, collaborating with front-end developers and troubleshooting and resolving any bugs to solve customer complaints.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Blog" id="feed">
+            <div class="comment-box">
+                <h1 style="align-items: center;">Contact Me</h1>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" name="" id="" placeholder="Enter Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+                    <button type="submit"  class="hero red-btn">POST MESSAGE</button>
+                </form>
+            </div>
+        
+    </section>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect =new Typed(".multiText",{
+            strings : ["Backend Developer","Java Developer","SpringBoot Developer"],
+            loop:true,
+            typeSpeed :100,
+            backSpeed :80,
+            backDelay :1500
+        })
+    </script>
+</body>
+</html>
